@@ -46,5 +46,6 @@ result = ''.join(easy_password)
 print(result)
 
 # printing the difficult password after shuffling the characters
-difficult_password = random.shuffle(easy_password)
-print (difficult_password)
+random.shuffle(easy_password)
+difficult_password_str = ''.join(easy_password)
+print(f"Difficult Password: {difficult_password_str}")
