@@ -43,7 +43,7 @@ while k < no_of_symbols:
 
 # converting the list into a string using explicit type conversion
 result = ''.join(easy_password)
-print(result)
+print("Easy password: ",result)
 
 # printing the difficult password after shuffling the characters
 random.shuffle(easy_password)
